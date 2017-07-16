@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello world!</title>
+
+</head>
+<body>
+{% for game in games  %}
+<p>{{game.LeftTeam.team}} vs {{game.RightTeam.team}} and the winner is {{game.Winer.team}} </p>
+{% endfor %}
+</body>
+</html>
