@@ -19,6 +19,6 @@ from Helo import views
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
-
+    url(r'^$',views.index)
 
 ]
